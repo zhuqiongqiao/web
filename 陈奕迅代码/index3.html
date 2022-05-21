@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>陈奕迅</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;
+			}
+				body{
+					background-image: url(cyx025.jpg);
+					background-attachment: fixed;
+					background-repeat:no-repeat;
+					background-size: cover;
+					background-position: 70% 70%;
+				}
+			#wrap {
+				width: 1080px;
+				margin: 0 auto;
+			}
+			
+			#header {
+				height: 200px;
+				position: relative;
+				margin-bottom: 10px;
+			}
+			
+			#footer {
+				text-align: center;
+				padding: 1em 0;
+			}
+			
+			#sidebar {
+				width: 270px;
+				display: inline-block;
+				margin-right: 10px;
+			}
+			
+			#main {
+				width: 800px;
+				display: inline-block;
+				vertical-align: top;
+			}
+			
+			.box {
+				background-color: #404040;
+				margin-bottom: 10px;
+				border-radius: 15px;
+				overflow: hidden;
+			}
+			
+			.box h4 {
+				background-color: #696969;
+				text-align: center;
+				color: white;
+				padding: 3px;
+			}
+			#menu a {
+				display: block;
+				margin: 10px 50px;
+				padding: 5px 10px;
+				color: whitesmoke;
+				text-align: center;
+				border-radius: 50px;
+			}
+			
+			#menu a:hover {
+				cursor: pointer;
+				color: white;
+				font-weight: bold;
+			} 
+			
+			#nav li {
+				float: left;
+			}
+			
+			#nav {
+				position: absolute;
+				bottom: 0;
+			}
+			
+			#nav a {
+				display: block;
+				padding: 10px 20px;
+				margin: 10px;
+				font-size: 1.2em;
+				color: #666;
+				text-transform: uppercase;
+				font-family: arial;
+				border: 1px dashed seagreen;
+				border-radius: 100px;
+			}
+			
+			#nav a:hover {
+				background-color:#444956 ;
+				color: white;
+				border: 1px solid coral;
+			}
+			 #search {
+				position: absolute;
+				right: 0;
+				bottom: 10px;
+			}
+			
+			#search input {
+				height: 30px;
+				border: 0;
+			}
+			
+			#search [type="text"] {
+				background-color:#696969 ;
+				border-radius: 50px 0 0 50px;
+				padding-left: 1em;
+			}
+			
+			#search [type="submit"] {
+				background-color: #404040;
+				border-radius: 0 50px 50px 0;
+				width: 40px;
+				color: white;
+				cursor: pointer;
+			}
+			#login {
+				margin: 10px 30px;
+			}
+			
+			#login input {
+				display: block;
+				width: 100%;
+				height: 35px;
+				border: 0;
+				background-color: transparent;
+			}
+			
+			#login [type="text"],
+			#login [type="password"] {
+				border-bottom: 1px solid darkgrey;
+			}
+			
+			#login [type="submit"] {
+				margin-top: 10px;
+				border-radius: 50px;
+				cursor: pointer;
+				color:whitesmoke;
+				background: #696969 ;
+			}
+			#top{
+				height: 300px
+			}
+			#top img{
+				width:400px ;
+				float: left;
+				margin-left: 20px;
+			}
+			#top img:hover{
+				margin-top: 7px;
+			}
+			#eason{
+				width:640px;
+				float: right;
+				font-size: 20px;
+				 line-height: 35px;
+				 margin-right: 10px;
+				  color:  #CFCFCF;
+			}
+			#eason:hover{
+				color:whitesmoke;
+				
+			}
+			#under{
+				height: 500px
+			}
+			#under img{
+				float: right;
+				height: 500px;
+				margin-bottom: 40px;
+				margin-right: 40px;
+			}
+			#eason1{
+				width: 500px;
+				height:450px ;
+				float: left;
+				font-size: 20px;
+				line-height: 35px;
+				margin-left: 55px; 
+				color:#CFCFCF ;
+			}
+			#eason1:hover{
+				color:whitesmoke;
+			}
+			.photo {
+				float: left;
+				width: 40%;
+			}
+			
+			.words {
+				float: right;
+				width: 58%;
+				line-height: 30px;
+			}
+			#footer {
+				width: 1080px;
+				height: 100px;
+				background-color:  #545454;
+			}
+			#box5{
+				background:black; 
+				color: whitesmoke;
+				font-size: 70px;
+				font-weight: bolder;
+				width: 100%;
+				height: 100px;
+			}
+			#box5 p:hover{
+				 margin-left: 550px;
+				 transition: 2s;
+			}
+			.tp{
+				width: 1080px;
+				height: 100px;
+			}
+			#box6,#box7,#box8,#box9 {
+				vertical-align: top;
+				display: inline-block;
+				margin-left: 175px;
+			}
+			#box6{
+				margin-left:15px;
+			}
+			.tp img {
+				border-radius: 50%;
+				width: 70px;
+				height: 70px;
+				margin-top: 10px;
+				}
+				#footer img:hover{
+				/* transform: scale(1.3); */
+				 transform: rotate(30deg);
+				}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+				    <div id="header">
+						<h1 id="logo">
+				       <table>
+						   <tr>
+							   <td>
+								  <img src="cyx008.jpg" height="135px">
+							   </td>
+						   </tr>
+					   </table>
+					   </h1>
+				        <ul id="nav">
+				       		<li><a href="index.html">个人介绍</a></li>
+				       		<li><a href="index2.html">主要作品</a></li>
+				       		<li><a href="index3.html">更多</a></li>
+				       	</ul>
+				        <form id="search">
+				            <input type="text" /><input type="submit" value="搜索" />
+				        </form>
+				    </div>
+				  		<div class="box" >
+							<h4>
+								更多
+								
+							</h4>
+							<div >
+								<video src="淘汰.mp4" controls autoplay muted loop height="100%" width="95%" style="margin-top: 10px; margin-left: 30px;">	
+							</div>
+							<div id="top">
+							<img src="cyx020.jpg">
+							<p id="eason">
+								Eason，在2006年6月，赴印度考察全球儿童失明问题。2008年5月，赴北京参加央视赈灾晚会。
+								2012年6月18日，担任健康使者，为公益健康活动“无限极世界行走日”演唱主题曲《相信自己无限极》。
+								2013年1月18日，参加《梦想合唱团》，帮助杨千嬅带领的广州队筹集公益梦想基金；4月，发布为雅安祈福加油的书信；
+								7月13日，举办“Eason's LIFE”陈奕迅演唱会，所得善款用以资助基金会的慈善倡议活动；
+								9月19日，参加“为爱同行”壹基金2013健行活动。
+							</p>
+							</div>
+							<div id="under">
+								<img src="cyx013.jpg" >
+								<p id="eason1">
+									陈奕迅是香港主流乐坛的代表性人物之一，被外界誉为“张学友的接班人”。
+									他在音乐上经历了一个由商业到不商业、由不自我到自我的过程。
+									他因为流行曲而被更多的人所认知，在成名以后他又用音乐逐渐改变人们对流行曲的理解。
+									他可以把每一首歌完全吸收消化，然后用直接和诚恳的方式诠释歌曲。
+									他不仅能用发自内心的感情演唱情歌，而且还具有多层面的个性和思维，
+									这也导致他几乎可以胜任所有类型的歌曲。
+									陈奕迅凭借随性不羁、鬼马搞怪的风格在香港乐坛独树一帜。
+									他的嗓音厚实中带着沙哑，唱腔慵懒且具有独特的个性。
+									他擅长把华丽和经典的唱腔结合，将歇斯底里与俏皮的气质融入心灵。
+									而在着装和造型上，他更是挥洒个性，独特的穿衣风格让他成功吸引众人的目光。
+									诸多出人意料的造型也让他一次次地创造出潮流。
+
+								</p>
+							</div>
+							</div>
+								<div id="box5">
+								<p>最好的陈奕迅🎤</p>
+								</div>
+							
+						</div>
+				   
+				</div>
+				<center><div id="footer">
+				<div class="tp">
+				<div id="box6">
+						<a href="https://baike.sogou.com/v4541907.htm?fromTitle=%E5%BE%90%E6%BF%A0%E8%90%A6"><img src="xhy031.jpg"></a>
+						<p>妻子徐濠萦</p>
+				</div>
+				<div id="box7">
+						<a href="https://baike.sogou.com/v2891597.htm?fromTitle=%E9%99%88%E5%BA%B7%E5%A0%A4"><img src="ckd030.jpg"></a>
+						<p>女儿陈康堤</p>
+				</div>
+				<div id="box8">
+						<a href="https://baike.sogou.com/v43686.htm?fromTitle=%E8%B0%A2%E9%9C%86%E9%94%8B"><img src="xtf028.jpg"></a>
+						<p>好友谢霆锋</p>
+				</div>
+				<div id="box9">
+						<a href="https://baike.sogou.com/v42573.htm?fromTitle=%E6%9D%A8%E5%8D%83%E5%AC%85"><img src="yqh029.jpg"></a>
+						<p>好友杨千嬅</p>
+				</div>
+				</div>
+				</div>
+	</body>
+</html>
